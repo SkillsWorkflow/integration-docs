@@ -8,13 +8,12 @@ The following information must be provided:
 * **URL** - the endpoint URL that Skills Workflow services invoke when the webhook is triggered;
 * **Secret** - a secret value that is to be sent on every webhook request so the webhook endpoint is sure that the request comes from Skills Workflow
 
-## HTTP Request
+## Request
 
 Skills Workflow API will make an HTTP POST request to the specified endpoint with a *JSON* payload containing a description of the event that triggered the webhook.
 
 The request is always performed via HTTPS and will include a header (X-Webhook-Secret) containing the secret specified when the webhook was configured.
 
-### Request
 ```http
 POST /skillsevent HTTP/1.1
 Host: webhook.example.com
@@ -69,3 +68,9 @@ X-Webhook-Secret: SOME_SECRET
 
 * SkillsWorkflow.Job
 * SkillsWorkflow.Project
+
+## Sample diagram
+
+This is an example of the interactions required to respond to a job created event and post some time against that job.
+
+![alt text](interaction.jpg "Interaction diagram")
