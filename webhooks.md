@@ -54,6 +54,11 @@ X-Webhook-Secret: SOME_SECRET
 | --------------            | -------------------------------------------------- 
 | created                   | The document was created
 | updated                   | The document was updated
+| test                      | When the webhook is tested it is invoked with this special action value.
+
+> **Note** 
+>
+> When the action value is ```test``` the **document** property will not have a value.
      
 
 #### Document fields
