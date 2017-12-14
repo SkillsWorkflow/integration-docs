@@ -78,4 +78,4 @@ X-Webhook-Secret: SOME_SECRET
 
 This is an example of the interactions required to respond to a job created event and post some time against that job.
 
-![alt text](interaction.jpg "Interaction diagram")
+![alt text](SampleInteractionDiagram.png "Interaction diagram")
