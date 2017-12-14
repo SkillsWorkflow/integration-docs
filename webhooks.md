@@ -71,8 +71,8 @@ X-Webhook-Secret: SOME_SECRET
 
 ##### Type values
 
-* SkillsWorkflow.Job
-* SkillsWorkflow.Project
+* ```SkillsWorkflow.Job```
+* ```SkillsWorkflow.Project```
 
 ## Sample diagram
 
