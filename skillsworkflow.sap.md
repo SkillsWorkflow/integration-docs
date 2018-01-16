@@ -1,6 +1,6 @@
 # SAP
 
-On premises agent to send Jobs and Projects to SAP from Skills Workflow
+On premises agent to send Jobs, Projects and status update to SAP from Skills Workflow
 
 <h3>Framework/Tools/Dependencies</h3>
 <ul>
